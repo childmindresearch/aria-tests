@@ -1,14 +1,15 @@
 [tool.poetry]
-name = "app-name"
+name = "aria_tests"
 version = "0.1.0"
 description = "A beautiful description."
 authors = ["Reinder Vos de Wael <reinder.vosdewael@childmind.org>"]
 license = "LGPL-2.1"
 readme = "README.md"
-packages = [{include = "APP_NAME", from = "src"}]
+packages = [{include = "aria_tests", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "~3.11"
+projectaria-client-sdk = "^1.0.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
