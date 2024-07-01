@@ -9,7 +9,7 @@ packages = [{include = "aria_tests", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "~3.11"
-projectaria-client-sdk = "^1.0.3"
+projectaria-client-sdk = "^1.1.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
